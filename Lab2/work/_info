@@ -1,0 +1,418 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Kourosh/Documents/pain/ca1
+vController
+Z0 !s110 1714898955
+!i10b 1
+!s100 JYQYjO6::dDUTFBzOnlFC1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ITW@dIHYlUi95`oUCTco8l2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/Kourosh/Documents/logic-circuits/Lab2
+w1713958329
+8C:/Users/Kourosh/Documents/logic-circuits/Lab2/controller.v
+FC:/Users/Kourosh/Documents/logic-circuits/Lab2/controller.v
+!i122 1360
+L0 10 48
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1714898954.000000
+!s107 C:/Users/Kourosh/Documents/logic-circuits/Lab2/controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab2/controller.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@controller
+vDatapath
+R0
+!i10b 1
+!s100 ^O]`a8235el:9G8`i9nD^3
+R1
+IUW?M`b@Gm4kLza75`0]4O3
+R2
+R3
+w1713958284
+8C:/Users/Kourosh/Documents/logic-circuits/Lab2/datapath.v
+FC:/Users/Kourosh/Documents/logic-circuits/Lab2/datapath.v
+!i122 1361
+L0 2 30
+R4
+r1
+!s85 0
+31
+Z7 !s108 1714898955.000000
+!s107 C:/Users/Kourosh/Documents/logic-circuits/Lab2/datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab2/datapath.v|
+!i113 1
+R5
+R6
+n@datapath
+vDownCounter4
+Z8 !s110 1714898956
+!i10b 1
+!s100 Z`<PBg7OE9g2C:KSe]<Yo2
+R1
+IQ04aW;GezN7UnGbiYnUYm3
+R2
+R3
+w1713959631
+Z9 8C:/Users/Kourosh/Documents/logic-circuits/Lab2/DownCounter4.v
+Z10 FC:/Users/Kourosh/Documents/logic-circuits/Lab2/DownCounter4.v
+!i122 1362
+L0 3 33
+R4
+r1
+!s85 0
+31
+R7
+Z11 !s107 C:/Users/Kourosh/Documents/logic-circuits/Lab2/DownCounter4.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab2/DownCounter4.v|
+!i113 1
+R5
+R6
+n@down@counter4
+vDownCoutner4
+!s110 1712489033
+!i10b 1
+!s100 _c=AN<6UJij`Wi_Z60d:B3
+R1
+IE^8P5[Be^B1BPVjKf>Ik@3
+R2
+R3
+w1712488157
+R9
+R10
+!i122 142
+L0 3 29
+R4
+r1
+!s85 0
+31
+!s108 1712489033.000000
+R11
+R12
+!i113 1
+R5
+R6
+n@down@coutner4
+vExp2TB
+!s110 1713090063
+!i10b 1
+!s100 NHl7W>aNf<4L7>Q_NANPn1
+R1
+I>UM3U4f^`B_=1CSYb5oRM3
+R2
+R3
+w1713090056
+8C:\Users\Kourosh\Documents\logic-circuits\Lab2\TB.v
+FC:\Users\Kourosh\Documents\logic-circuits\Lab2\TB.v
+!i122 1077
+L0 3 36
+R4
+r1
+!s85 0
+31
+!s108 1713090063.000000
+!s107 C:\Users\Kourosh\Documents\logic-circuits\Lab2\TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Kourosh\Documents\logic-circuits\Lab2\TB.v|
+!i113 1
+R5
+R6
+n@exp2@t@b
+vOnePulser
+R8
+!i10b 1
+!s100 HMfc<ERBOQkB53TGOLW6i3
+R1
+IG9B41<nfc;2k_W>3ZB05b2
+R2
+R3
+w1713959582
+8C:/Users/Kourosh/Documents/logic-circuits/Lab2/OnePulser.v
+FC:/Users/Kourosh/Documents/logic-circuits/Lab2/OnePulser.v
+!i122 1363
+L0 7 27
+R4
+r1
+!s85 0
+31
+Z13 !s108 1714898956.000000
+!s107 C:/Users/Kourosh/Documents/logic-circuits/Lab2/OnePulser.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab2/OnePulser.v|
+!i113 1
+R5
+R6
+n@one@pulser
+vShiftReg2
+Z14 !s110 1714898957
+!i10b 1
+!s100 oYYl3m:0I_HR?dm`b<P933
+R1
+I5W0zRVIj@hCU4hE7bQ<c92
+R2
+R3
+w1713957913
+Z15 8C:/Users/Kourosh/Documents/logic-circuits/Lab2/ShiftReg2.v
+Z16 FC:/Users/Kourosh/Documents/logic-circuits/Lab2/ShiftReg2.v
+!i122 1364
+Z17 L0 3 26
+R4
+r1
+!s85 0
+31
+R13
+Z18 !s107 C:/Users/Kourosh/Documents/logic-circuits/Lab2/ShiftReg2.v|
+Z19 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab2/ShiftReg2.v|
+!i113 1
+R5
+R6
+n@shift@reg2
+vShiftReg4
+R14
+!i10b 1
+!s100 49JegMzK;0<FmB5XH[nLm3
+R1
+ID_Q:QTAJ^_[ZSdb]AOS:A1
+R2
+R3
+w1713957916
+Z20 8C:/Users/Kourosh/Documents/logic-circuits/Lab2/ShiftReg4.v
+Z21 FC:/Users/Kourosh/Documents/logic-circuits/Lab2/ShiftReg4.v
+!i122 1365
+R17
+R4
+r1
+!s85 0
+31
+Z22 !s108 1714898957.000000
+Z23 !s107 C:/Users/Kourosh/Documents/logic-circuits/Lab2/ShiftReg4.v|
+Z24 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab2/ShiftReg4.v|
+!i113 1
+R5
+R6
+n@shift@reg4
+vShiftRegister2
+Z25 !s110 1712489105
+!i10b 1
+!s100 EQnD86mTMNz;L06c=aZQ]3
+R1
+I_Qhg59zZ5@z;odVfek5bV0
+R2
+R3
+w1712487778
+R15
+R16
+!i122 155
+Z26 L0 3 22
+R4
+r1
+!s85 0
+31
+Z27 !s108 1712489105.000000
+R18
+R19
+!i113 1
+R5
+R6
+n@shift@register2
+vShiftRegister4
+R25
+!i10b 1
+!s100 HMzPZG91NmO4Ao4[h9E?M0
+R1
+Ih8XgZWm?J1NGN>YAD1Mh11
+R2
+R3
+w1712487781
+R20
+R21
+!i122 156
+R26
+R4
+r1
+!s85 0
+31
+R27
+R23
+R24
+!i113 1
+R5
+R6
+n@shift@register4
+vSSD
+Z28 !s110 1714898958
+!i10b 1
+!s100 Nb6o>1XWnMP6SL:OabEB22
+R1
+I7l86z^0U@QGCMMM`@;@2k3
+R2
+R3
+w1713006134
+8C:/Users/Kourosh/Documents/logic-circuits/Lab2/ssd.v
+FC:/Users/Kourosh/Documents/logic-circuits/Lab2/ssd.v
+!i122 1366
+L0 3 31
+R4
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/Kourosh/Documents/logic-circuits/Lab2/ssd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab2/ssd.v|
+!i113 1
+R5
+R6
+n@s@s@d
+vtb
+R28
+!i10b 1
+!s100 6jX9FzJVM>eH73035UnK@1
+R1
+ILlTAOO4Rb7@`G?g^=TEZY2
+R2
+R3
+w1713091791
+8C:/Users/Kourosh/Documents/logic-circuits/Lab2/TB.v
+FC:/Users/Kourosh/Documents/logic-circuits/Lab2/TB.v
+!i122 1367
+L0 2 70
+R4
+r1
+!s85 0
+31
+Z29 !s108 1714898958.000000
+!s107 C:/Users/Kourosh/Documents/logic-circuits/Lab2/TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab2/TB.v|
+!i113 1
+R5
+R6
+vTopLevel
+Z30 !s110 1714898959
+!i10b 1
+!s100 =XoZn]PMj[S1`fFXNfVX42
+R1
+IR]oCEg3gzche]5Ck::8LP2
+R2
+R3
+w1713957950
+8C:/Users/Kourosh/Documents/logic-circuits/Lab2/TopLevel.v
+FC:/Users/Kourosh/Documents/logic-circuits/Lab2/TopLevel.v
+!i122 1368
+L0 3 30
+R4
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/Kourosh/Documents/logic-circuits/Lab2/TopLevel.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab2/TopLevel.v|
+!i113 1
+R5
+R6
+n@top@level
+vUpCounter1
+R30
+!i10b 1
+!s100 Y>9IH<A[8jP5jK9AGg2n42
+R1
+IY9O9FzE6E7<H<eD`IY6oE0
+R2
+R3
+w1713957906
+Z31 8C:/Users/Kourosh/Documents/logic-circuits/Lab2/UpCounter1.v
+Z32 FC:/Users/Kourosh/Documents/logic-circuits/Lab2/UpCounter1.v
+!i122 1369
+Z33 L0 3 27
+R4
+r1
+!s85 0
+31
+Z34 !s108 1714898959.000000
+Z35 !s107 C:/Users/Kourosh/Documents/logic-circuits/Lab2/UpCounter1.v|
+Z36 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab2/UpCounter1.v|
+!i113 1
+R5
+R6
+n@up@counter1
+vUpCounter2
+!s110 1714898960
+!i10b 1
+!s100 VgXcai]8bik6[0^?1;lJ:3
+R1
+I6kCEEY?aAf1^nI=NM][U<1
+R2
+R3
+w1713959569
+Z37 8C:/Users/Kourosh/Documents/logic-circuits/Lab2/UpCounter2.v
+Z38 FC:/Users/Kourosh/Documents/logic-circuits/Lab2/UpCounter2.v
+!i122 1370
+R33
+R4
+r1
+!s85 0
+31
+R34
+Z39 !s107 C:/Users/Kourosh/Documents/logic-circuits/Lab2/UpCounter2.v|
+Z40 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab2/UpCounter2.v|
+!i113 1
+R5
+R6
+n@up@counter2
+vUpCoutner1
+Z41 !s110 1712489035
+!i10b 1
+!s100 KBzNRd`^B3?4_MPz6zW?H2
+R1
+IWO4`?`8zGb842UoLf@kFb1
+R2
+R3
+w1712486188
+R31
+R32
+!i122 147
+Z42 L0 3 23
+R4
+r1
+!s85 0
+31
+!s108 1712489034.000000
+R35
+R36
+!i113 1
+R5
+R6
+n@up@coutner1
+vUpCoutner2
+R41
+!i10b 1
+!s100 hMfM]c22edD=lo3eIkD:O1
+R1
+ITGK09l7H9e?D9m9K4JK823
+R2
+R3
+w1712486185
+R37
+R38
+!i122 148
+R42
+R4
+r1
+!s85 0
+31
+!s108 1712489035.000000
+R39
+R40
+!i113 1
+R5
+R6
+n@up@coutner2

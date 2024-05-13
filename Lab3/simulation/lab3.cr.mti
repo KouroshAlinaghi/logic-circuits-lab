@@ -1,0 +1,82 @@
+C:/Users/Kourosh/Documents/logic-circuits/Lab3/amp-sel.v {1 {vlog -work work -stats=none C:/Users/Kourosh/Documents/logic-circuits/Lab3/amp-sel.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module AmpSelector
+
+Top level modules:
+	AmpSelector
+
+} {} {}} C:/Users/Kourosh/Documents/logic-circuits/Lab3/freq-sel.v {1 {vlog -work work -stats=none C:/Users/Kourosh/Documents/logic-circuits/Lab3/freq-sel.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FrequencySelector
+
+Top level modules:
+	FrequencySelector
+
+} {} {}} C:/Users/Kourosh/Documents/logic-circuits/Lab3/waveform-generator.v {1 {vlog -work work -stats=none C:/Users/Kourosh/Documents/logic-circuits/Lab3/waveform-generator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module WaveformGenerator
+
+Top level modules:
+	WaveformGenerator
+
+} {} {}} C:/Users/Kourosh/Documents/logic-circuits/Lab3/dds-dp.v {1 {vlog -work work -stats=none C:/Users/Kourosh/Documents/logic-circuits/Lab3/dds-dp.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DDSDatapath
+
+Top level modules:
+	DDSDatapath
+
+} {} {}} C:/Users/Kourosh/Documents/logic-circuits/Lab3/tb_dds.v {1 {vlog -work work -stats=none C:/Users/Kourosh/Documents/logic-circuits/Lab3/tb_dds.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_dds
+
+Top level modules:
+	tb_dds
+
+} {} {}} C:/Users/Kourosh/Documents/logic-circuits/Lab3/dds-controller.v {1 {vlog -work work -stats=none C:/Users/Kourosh/Documents/logic-circuits/Lab3/dds-controller.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DDSController
+
+Top level modules:
+	DDSController
+
+} {} {}} C:/Users/Kourosh/Documents/logic-circuits/Lab3/dds-unit.v {1 {vlog -work work -stats=none C:/Users/Kourosh/Documents/logic-circuits/Lab3/dds-unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DDSUnit
+
+Top level modules:
+	DDSUnit
+
+} {} {}} C:/Users/Kourosh/Documents/logic-circuits/Lab3/pwm.v {1 {vlog -work work -stats=none C:/Users/Kourosh/Documents/logic-circuits/Lab3/pwm.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PWM
+
+Top level modules:
+	PWM
+
+} {} {}} C:/Users/Kourosh/Documents/logic-circuits/Lab3/everything.v {2 {vlog -work work -stats=none C:/Users/Kourosh/Documents/logic-circuits/Lab3/everything.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Everything
+** Warning: C:/Users/Kourosh/Documents/logic-circuits/Lab3/everything.v(20): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: C:/Users/Kourosh/Documents/logic-circuits/Lab3/everything.v(20): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: C:/Users/Kourosh/Documents/logic-circuits/Lab3/everything.v(20): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: C:/Users/Kourosh/Documents/logic-circuits/Lab3/everything.v(20): (vlog-2121) Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+
+Top level modules:
+	Everything
+
+} {} {}} C:/Users/Kourosh/Documents/logic-circuits/Lab3/rom.v {1 {vlog -work work -stats=none C:/Users/Kourosh/Documents/logic-circuits/Lab3/rom.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ROM
+
+Top level modules:
+	ROM
+
+} {} {}} C:/Users/Kourosh/Documents/logic-circuits/Lab3/tb.v {1 {vlog -work work -stats=none C:/Users/Kourosh/Documents/logic-circuits/Lab3/tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}}

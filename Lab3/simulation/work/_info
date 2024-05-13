@@ -1,0 +1,273 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Kourosh/Documents/logic-circuits/Lab2
+vAmpSelector
+Z0 !s110 1714905138
+!i10b 1
+!s100 UFnBKbe^`6Df8;[6jPRNO1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]6P?_`@`_03BM4b_b]R3P3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/Kourosh/Documents/logic-circuits/Lab3
+w1714301885
+8C:/Users/Kourosh/Documents/logic-circuits/Lab3/amp-sel.v
+FC:/Users/Kourosh/Documents/logic-circuits/Lab3/amp-sel.v
+!i122 516
+L0 1 14
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1714905138.000000
+!s107 C:/Users/Kourosh/Documents/logic-circuits/Lab3/amp-sel.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab3/amp-sel.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@amp@selector
+vDDSController
+Z8 !s110 1714905139
+!i10b 1
+!s100 ZAeXoK1o>?8670K2Remd=0
+R1
+I^GlBYFYPm;Y;[fhbgJW2W0
+R2
+R3
+w1714305240
+8C:/Users/Kourosh/Documents/logic-circuits/Lab3/dds-controller.v
+FC:/Users/Kourosh/Documents/logic-circuits/Lab3/dds-controller.v
+!i122 517
+L0 6 43
+R4
+r1
+!s85 0
+31
+Z9 !s108 1714905139.000000
+!s107 C:/Users/Kourosh/Documents/logic-circuits/Lab3/dds-controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab3/dds-controller.v|
+!i113 1
+R6
+R7
+n@d@d@s@controller
+vDDSDatapath
+R8
+!i10b 1
+!s100 FR5UC@VXWL;@7bXNPGPWL2
+R1
+I47UlBT5Ce@>=]6GzZDNVE0
+R2
+R3
+w1714304787
+8C:/Users/Kourosh/Documents/logic-circuits/Lab3/dds-dp.v
+FC:/Users/Kourosh/Documents/logic-circuits/Lab3/dds-dp.v
+!i122 518
+L0 1 21
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Kourosh/Documents/logic-circuits/Lab3/dds-dp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab3/dds-dp.v|
+!i113 1
+R6
+R7
+n@d@d@s@datapath
+vDDSUnit
+Z10 !s110 1714905140
+!i10b 1
+!s100 8=@XWN[6C1n0HJGCmkzRP2
+R1
+I_<<ZNm]]XQOk3?UOHWT0j1
+R2
+R3
+w1714305524
+8C:/Users/Kourosh/Documents/logic-circuits/Lab3/dds-unit.v
+FC:/Users/Kourosh/Documents/logic-circuits/Lab3/dds-unit.v
+!i122 519
+L0 1 33
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Kourosh/Documents/logic-circuits/Lab3/dds-unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab3/dds-unit.v|
+!i113 1
+R6
+R7
+n@d@d@s@unit
+vEverything
+R0
+!i10b 1
+!s100 8dCIAeW=H0_>m?Z@T19Ti1
+R1
+ImdjBT5VKP]KTdBmOY:FUn1
+R2
+R3
+w1714905027
+8C:/Users/Kourosh/Documents/logic-circuits/Lab3/everything.v
+FC:/Users/Kourosh/Documents/logic-circuits/Lab3/everything.v
+!i122 515
+L0 1 38
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Kourosh/Documents/logic-circuits/Lab3/everything.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab3/everything.v|
+!i113 1
+R6
+R7
+n@everything
+vFrequencySelector
+Z11 !s110 1714905135
+!i10b 1
+!s100 XbYY@9;I1=d>78@hilUFG2
+R1
+I?;<Ez<gn>cgXmFHKd28052
+R2
+R3
+w1714301499
+8C:/Users/Kourosh/Documents/logic-circuits/Lab3/freq-sel.v
+FC:/Users/Kourosh/Documents/logic-circuits/Lab3/freq-sel.v
+!i122 514
+L0 1 28
+R4
+r1
+!s85 0
+31
+!s108 1714905135.000000
+!s107 C:/Users/Kourosh/Documents/logic-circuits/Lab3/freq-sel.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab3/freq-sel.v|
+!i113 1
+R6
+R7
+n@frequency@selector
+vPWM
+Z12 !s110 1714905141
+!i10b 1
+!s100 S5MA=O3:8URLKNZj;7QIb3
+R1
+IUfI<n7;PTcD;Hi=UYAcG^0
+R2
+R3
+w1714904954
+8C:/Users/Kourosh/Documents/logic-circuits/Lab3/pwm.v
+FC:/Users/Kourosh/Documents/logic-circuits/Lab3/pwm.v
+!i122 522
+L0 1 20
+R4
+r1
+!s85 0
+31
+Z13 !s108 1714905141.000000
+!s107 C:/Users/Kourosh/Documents/logic-circuits/Lab3/pwm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab3/pwm.v|
+!i113 1
+R6
+R7
+n@p@w@m
+vROM
+R10
+!i10b 1
+!s100 cS@M6JoHUkW]JS]WQJ7JN0
+R1
+I[Aa6ScRg:aT]njXbP>mI82
+R2
+R3
+w1714304639
+8C:/Users/Kourosh/Documents/logic-circuits/Lab3/rom.v
+FC:/Users/Kourosh/Documents/logic-circuits/Lab3/rom.v
+!i122 520
+L0 1 19
+R4
+r1
+!s85 0
+31
+!s108 1714905140.000000
+!s107 C:/Users/Kourosh/Documents/logic-circuits/Lab3/rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab3/rom.v|
+!i113 1
+R6
+R7
+n@r@o@m
+vtb
+!s110 1714905134
+!i10b 1
+!s100 jlJdZdneeEiVoYi8nNiFW2
+R1
+IoP1kiEH9QB^BcQPaT>R7J2
+R2
+R3
+w1714905130
+8C:/Users/Kourosh/Documents/logic-circuits/Lab3/tb.v
+FC:/Users/Kourosh/Documents/logic-circuits/Lab3/tb.v
+!i122 512
+L0 2 25
+R4
+r1
+!s85 0
+31
+Z14 !s108 1714905134.000000
+!s107 C:/Users/Kourosh/Documents/logic-circuits/Lab3/tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab3/tb.v|
+!i113 1
+R6
+R7
+vtb_dds
+R12
+!i10b 1
+!s100 _dGDeUmVdz;Xg9RVMAkLm0
+R1
+Id[mLU_6JO@0eVc@i]]FPX3
+R2
+R3
+w1714305053
+8C:/Users/Kourosh/Documents/logic-circuits/Lab3/tb_dds.v
+FC:/Users/Kourosh/Documents/logic-circuits/Lab3/tb_dds.v
+!i122 521
+L0 2 16
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Kourosh/Documents/logic-circuits/Lab3/tb_dds.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab3/tb_dds.v|
+!i113 1
+R6
+R7
+vWaveformGenerator
+R11
+!i10b 1
+!s100 KI4N]UV5E@nV@DHd5i`<o1
+R1
+I;[h2E=0_8g<PJV1PcG^412
+R2
+R3
+w1714904492
+8C:/Users/Kourosh/Documents/logic-circuits/Lab3/waveform-generator.v
+FC:/Users/Kourosh/Documents/logic-circuits/Lab3/waveform-generator.v
+!i122 513
+L0 1 49
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Kourosh/Documents/logic-circuits/Lab3/waveform-generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Kourosh/Documents/logic-circuits/Lab3/waveform-generator.v|
+!i113 1
+R6
+R7
+n@waveform@generator

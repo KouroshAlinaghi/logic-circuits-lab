@@ -1,0 +1,188 @@
+|TopLevel
+SerIn => SerIn.IN2
+clkPB => clkPB.IN1
+clk => clk.IN3
+rst => rst.IN3
+p0 << Datapath:DP.port14
+p1 << Datapath:DP.port15
+p2 << Datapath:DP.port16
+p3 << Datapath:DP.port17
+done << Controller:controller.port14
+serOutValid << Controller:controller.port13
+ssd[0] << Datapath:DP.port18
+ssd[1] << Datapath:DP.port18
+ssd[2] << Datapath:DP.port18
+ssd[3] << Datapath:DP.port18
+ssd[4] << Datapath:DP.port18
+ssd[5] << Datapath:DP.port18
+ssd[6] << Datapath:DP.port18
+
+
+|TopLevel|Controller:controller
+clk => ps~1.DATAIN
+rst => ps~3.DATAIN
+SerIn => Selector0.IN2
+SerIn => Selector1.IN1
+clkEn => ps.OUTPUTSELECT
+clkEn => ps.OUTPUTSELECT
+clkEn => ps.OUTPUTSELECT
+clkEn => ps.OUTPUTSELECT
+clkEn => ps.OUTPUTSELECT
+Co1 => Selector2.IN3
+Co1 => Selector1.IN2
+Co2 => ns.111.DATAB
+Co2 => Selector2.IN1
+CoD => Selector0.IN3
+CoD => Selector3.IN2
+CoD => done.DATAIN
+Cnt1 <= Cnt1.DB_MAX_OUTPUT_PORT_TYPE
+Cnt2 <= Cnt2.DB_MAX_OUTPUT_PORT_TYPE
+CntD <= CntD.DB_MAX_OUTPUT_PORT_TYPE
+ldCntD <= ldCntD.DB_MAX_OUTPUT_PORT_TYPE
+sh_en <= Cnt1.DB_MAX_OUTPUT_PORT_TYPE
+sh_enD <= Cnt2.DB_MAX_OUTPUT_PORT_TYPE
+serOutValid <= serOutValid.DB_MAX_OUTPUT_PORT_TYPE
+done <= CoD.DB_MAX_OUTPUT_PORT_TYPE
+rst_cu <= rst_cu.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TopLevel|Datapath:DP
+clk => clk.IN5
+clkEn => clkEn.IN5
+rst => rst.IN5
+SerIn => SerIn.IN2
+sh_en => sh_en.IN1
+sh_enD => sh_enD.IN1
+Cnt1 => Cnt1.IN1
+Cnt2 => Cnt2.IN1
+CntD => CntD.IN1
+ldCntD => ldCntD.IN1
+rst_cu => rst_cu.IN5
+Co1 <= UpCounter1:port_cnt.port5
+Co2 <= UpCounter2:DataNum_cnt.port5
+CoD <= DownCounter4:DataTrans_cnt.port7
+p0 <= concat.DB_MAX_OUTPUT_PORT_TYPE
+p1 <= concat.DB_MAX_OUTPUT_PORT_TYPE
+p2 <= concat.DB_MAX_OUTPUT_PORT_TYPE
+p3 <= concat.DB_MAX_OUTPUT_PORT_TYPE
+SSDOut[0] <= SSD:sevenSegment.port1
+SSDOut[1] <= SSD:sevenSegment.port1
+SSDOut[2] <= SSD:sevenSegment.port1
+SSDOut[3] <= SSD:sevenSegment.port1
+SSDOut[4] <= SSD:sevenSegment.port1
+SSDOut[5] <= SSD:sevenSegment.port1
+SSDOut[6] <= SSD:sevenSegment.port1
+
+
+|TopLevel|Datapath:DP|ShiftReg2:partition_shr
+SerIn => SerOut[0]~reg0.DATAIN
+shen => always0.IN0
+clk => SerOut[0]~reg0.CLK
+clk => SerOut[1]~reg0.CLK
+rst => SerOut[0]~reg0.ACLR
+rst => SerOut[1]~reg0.ACLR
+clkEn => always0.IN1
+rst_cu => ~NO_FANOUT~
+SerOut[0] <= SerOut[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SerOut[1] <= SerOut[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TopLevel|Datapath:DP|ShiftReg4:DataNum_shr
+SerIn => SerOut.DATAB
+shen => always0.IN0
+clk => SerOut[0]~reg0.CLK
+clk => SerOut[1]~reg0.CLK
+clk => SerOut[2]~reg0.CLK
+clk => SerOut[3]~reg0.CLK
+rst => SerOut[0]~reg0.ACLR
+rst => SerOut[1]~reg0.ACLR
+rst => SerOut[2]~reg0.ACLR
+rst => SerOut[3]~reg0.ACLR
+clkEn => always0.IN1
+rst_cu => SerOut.OUTPUTSELECT
+rst_cu => SerOut.OUTPUTSELECT
+rst_cu => SerOut.OUTPUTSELECT
+rst_cu => SerOut.OUTPUTSELECT
+SerOut[0] <= SerOut[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SerOut[1] <= SerOut[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SerOut[2] <= SerOut[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SerOut[3] <= SerOut[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TopLevel|Datapath:DP|UpCounter1:port_cnt
+cen => always0.IN0
+clk => cnt_po.CLK
+rst => cnt_po.ACLR
+clkEn => always0.IN1
+rst_cu => cnt_po.OUTPUTSELECT
+co <= cnt_po.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TopLevel|Datapath:DP|UpCounter2:DataNum_cnt
+cen => always0.IN0
+clk => cnt_po[0].CLK
+clk => cnt_po[1].CLK
+rst => cnt_po[0].ACLR
+rst => cnt_po[1].ACLR
+clkEn => always0.IN1
+rst_cu => cnt_po.OUTPUTSELECT
+rst_cu => cnt_po.OUTPUTSELECT
+co <= WideAnd0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TopLevel|Datapath:DP|DownCounter4:DataTrans_cnt
+cen => pout.OUTPUTSELECT
+cen => pout.OUTPUTSELECT
+cen => pout.OUTPUTSELECT
+cen => pout.OUTPUTSELECT
+ld => pout.OUTPUTSELECT
+ld => pout.OUTPUTSELECT
+ld => pout.OUTPUTSELECT
+ld => pout.OUTPUTSELECT
+clk => ~NO_FANOUT~
+rst => pout[0]~reg0.ACLR
+rst => pout[1]~reg0.ACLR
+rst => pout[2]~reg0.ACLR
+rst => pout[3]~reg0.ACLR
+clkEn => pout[0]~reg0.CLK
+clkEn => pout[1]~reg0.CLK
+clkEn => pout[2]~reg0.CLK
+clkEn => pout[3]~reg0.CLK
+pin[0] => pout.DATAB
+pin[1] => pout.DATAB
+pin[2] => pout.DATAB
+pin[3] => pout.DATAB
+rst_cu => pout.OUTPUTSELECT
+rst_cu => pout.OUTPUTSELECT
+rst_cu => pout.OUTPUTSELECT
+rst_cu => pout.OUTPUTSELECT
+co <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+pout[0] <= pout[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pout[1] <= pout[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pout[2] <= pout[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+pout[3] <= pout[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TopLevel|Datapath:DP|SSD:sevenSegment
+in[0] => Decoder0.IN3
+in[1] => Decoder0.IN2
+in[2] => Decoder0.IN1
+in[3] => Decoder0.IN0
+out[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TopLevel|OnePulser:OP
+clkPB => ns.01.DATAB
+clkPB => Selector1.IN2
+clkPB => Selector0.IN1
+clk => ps~1.DATAIN
+rst => ps~3.DATAIN
+clkEn <= clkEn.DB_MAX_OUTPUT_PORT_TYPE
+
+

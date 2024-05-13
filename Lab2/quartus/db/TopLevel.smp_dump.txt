@@ -1,0 +1,14 @@
+
+State Machine - |TopLevel|OnePulser:OP|ps
+Name ps.00 ps.10 ps.01 
+ps.00 0 0 0 
+ps.01 1 0 1 
+ps.10 1 1 0 
+
+State Machine - |TopLevel|Controller:controller|ps
+Name ps.111 ps.100 ps.011 ps.010 ps.000 
+ps.000 0 0 0 0 0 
+ps.010 0 0 0 1 1 
+ps.011 0 0 1 0 1 
+ps.100 0 1 0 0 1 
+ps.111 1 0 0 0 1 
